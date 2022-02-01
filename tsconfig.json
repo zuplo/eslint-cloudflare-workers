@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "paths": {
+      "@zuplo/common": ["./packages/common/src"],
+      "@zuplo/core": ["./packages/core/src"],
+      "@zuplo/internal": ["./packages/internal/src"],
+      "@zuplo/knative-utils": ["./packages/knative-utils/src"],
+      "@zuplo/runtime": ["./packages/runtime/src"]
+    }
+  },
+  "references": [
+    { "path": "./packages/common/tsconfig.json" },
+    { "path": "./packages/core/tsconfig.json" },
+    { "path": "./packages/runtime/tsconfig.json" },
+    { "path": "./packages/internal/tsconfig.json" },
+    { "path": "./packages/dev-api/tsconfig.json" },
+    { "path": "./packages/orchestration/tsconfig.json" },
+    { "path": "./packages/knative-utils/tsconfig.json" },
+    { "path": "./packages/tenant-api/tsconfig.json" },
+    { "path": "./packages/debug/tsconfig.json" }
+  ]
+}

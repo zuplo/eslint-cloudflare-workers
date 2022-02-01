@@ -1,0 +1,1 @@
+# eslint-config-cloudflare-workers

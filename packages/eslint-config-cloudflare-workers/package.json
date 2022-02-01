@@ -1,0 +1,4 @@
+{
+  "name": "eslint-config-cloudflare-workers",
+  "packageManager": "yarn@3.1.1"
+}
